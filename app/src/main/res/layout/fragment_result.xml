@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расчет площади"
+        android:textAlignment="center"
+        android:textColor="#F461DD"
+        android:textFontWeight="700"
+        android:textSize="36sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#59E1FF"
+        android:orientation="vertical"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+
+        <TextView
+            android:id="@+id/result_next_metres"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:textSize="12sp"
+            android:text="количество метров"
+            android:background="@color/white"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/result_next_price"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="60dp"
+            android:text="результат"
+            android:textFontWeight="700"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/button_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1750E0"
+            android:layout_marginTop="30dp"
+            android:text="РЕГИСТРАЦИЯ"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</LinearLayout>
